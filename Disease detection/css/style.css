@@ -1,0 +1,363 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+body {
+    background: url("https://cdn.pixabay.com/photo/2016/08/10/20/26/stethoscope-1584223_1280.jpg") no-repeat top center;
+     padding: 0 10px; 
+    background-size: cover;
+} */
+
+/* .wrapper {
+    max-width: 500px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 1.25);
+}
+
+.wrapper .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #fec107;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrapper .form {
+    width: 100%;
+}
+
+.wrapper .form .input_field {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .form .input_field label {
+    width: 80px;
+    font: bold;
+    color: wheat;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.wrapper .form .input_field input {
+    width: 100px;
+}
+
+.wrapper .form .input_field .textarea {
+    resize: none;
+    height: 250px;
+    width: 500px;
+} */
+
+
+
+/* nav {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 19px 19px; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+nav ul li a {
+    color: wheat; 
+    text-decoration: none;
+    font-size: 18px; 
+    font-weight: bold; 
+}
+
+nav ul li a:hover {
+    color: #fff; 
+}  */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+body {
+    background: url("https://cdn.pixabay.com/photo/2016/08/10/20/26/stethoscope-1584223_1280.jpg") no-repeat top center;
+    /* padding: 0 10px; */
+    background-size: cover;
+    transition: background-color 0.3s ease;
+}
+
+.wrapper {
+    max-width: 500px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 1.25);
+}
+
+.wrapper .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #fec107;
+    text-transform: uppercase;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.wrapper .form {
+    width: 100%;
+    animation: fade-in 1s ease forwards;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.wrapper .form .input_field {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .form .input_field label {
+    width: 80px;
+    font: bold;
+    color: wheat;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.wrapper .form .input_field input {
+    width: 100px;
+}
+
+.wrapper .form .input_field .textarea {
+    resize: none;
+    height: 250px;
+    width: 500px;
+}
+
+/* Navbar styling */
+nav {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color */
+    padding: 19px 19px; /* Padding for the navbar */
+    animation: slide-in 1s ease forwards;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Spacing between navbar items */
+}
+
+nav ul li a {
+    color: wheat; /* Text color */
+    text-decoration: none;
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Font weight */
+}
+
+nav ul li a:hover {
+    color: #fff; /* Text color on hover */
+}
+
+
+/* Rest of the CSS remains the same */
+
+.wrapper .form .input_field input {
+    width: 100px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.wrapper .form .input_field input:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+#submit {
+    color: black;
+    background: skyblue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+    background-color: lightblue;
+}
+
+
+/* Rest of the CSS remains the same */
+
+.wrapper .form .input_field input {
+    width: 100px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.wrapper .form .input_field input:focus {
+    transform: scale(1.05);
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    animation: bounce 0.5s ease;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+#submit {
+    color: black;
+    background: skyblue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+#submit:hover {
+    background-color: lightblue;
+    animation: none; /* Disable pulse animation on hover */
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Rest of the CSS remains the same */
+
+.wrapper .form .input_field label {
+    transition: transform 0.5s ease;
+}
+
+.wrapper .form .input_field input:focus ~ label {
+    transform: rotateY(180deg);
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    animation: flip 0.5s ease;
+}
+
+@keyframes flip {
+    0% {
+        transform: perspective(400px) rotateY(0);
+    }
+    50% {
+        transform: perspective(400px) rotateY(180deg);
+    }
+    100% {
+        transform: perspective(400px) rotateY(0);
+    }
+}
+
+#submit {
+    color: black;
+    background: skyblue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    animation: pulsate 1s infinite ease-in-out;
+}
+
+#submit:hover {
+    background-color: lightblue;
+    animation: none; /* Disable pulsate animation on hover */
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
